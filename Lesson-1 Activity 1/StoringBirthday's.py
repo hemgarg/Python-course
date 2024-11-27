@@ -1,41 +1,73 @@
-import time
+import time 
+time.sleep(0.7)
 
-time.sleep(2) # add a 2-second delay
+#Getting first person's name
+u1n = input ("Hello! What is your name?")
 
-#Storing Nihal's Birthday
-NihalBirthday = input ("What is your Birthday Nihal? (dd.mm.yyyy)")
+time.sleep(1)
 
-time.sleep(2) # add a 2-second delay
+print ("Okay",u1n) 
 
-#Printing his Birthday
-print ("So your birthday is" ,NihalBirthday)
+time.sleep(0.5)
 
-time.sleep(2) # add a 2-second delay
+#Getting and printing first person's birthday
+u1b = input ("What is your birthday?(dd/mm/yyyy)")
+print ("So your birthday is",u1b) 
+print ("Got it!")
 
-#Storing Ayaan's birthday
-AyaanBirthday = input ("What is your Birthday Ayaan? (dd.mm.yy)")
+time.sleep(1)
 
-time.sleep(2) # add a 2-second delay
+#Getting 2nd person's name
+u2n = input ("Hello user2! What is your name?")
 
-#Printing his Birthday
-print ("So your birthday is" ,AyaanBirthday)
+time.sleep(0.5)
 
-time.sleep(2) # add a 2-second delay
+print ("Okay! got it")
 
-#Storing Aarav's Birthday
-AaravBirthday = input ("What is your Birthday Aarav? (dd.mm.yyyy)")
+time.sleep(0.5)
 
-time.sleep(2) # add a 2-second delay
+#Getting 2nd person's birthday
+u2b = input ("Please now enter your birthday (dd/mm/yyyy)")
+print ("Okay",u2n)
+print ("So your birthday is",u2b)
+print ("Ill remember that",u2n)
 
-#Printing his Birthday
-print ("So your birthday is" ,AaravBirthday)
+time.sleep(1)
 
-time.sleep(2) # add a 2-second delay
+#Getting 3rd person's name
+u3n = input ("Now user3 what is your name?")
 
-#Storing My sister's Birthday
-AaraviBirthday = input ("What is your Birthday Aaravi? (dd.mm.yyyy)")
+print ("Alright",u3n)
 
-time.sleep(2) # add a 2-second delay
+#Getting 3rd person's birthday
+u3b = input ("Now what's your birthday? (dd/mm/yyyy)")
+print ("Thats your birthday?! Nice")
+print ("Its",u3b)
+print ("Right. Okay thanks!")
 
-#Printing her Birthday
-print ("So your birthday is", AaraviBirthday)
+time.sleep(0.8)
+
+#getting 4th person's name
+u4n = input ("Now user4 whats your name?")
+
+print ("Thats a nice name!")
+
+time.sleep(0.8)
+
+#Getting 4th peson's birthday
+u4b = input ("Okay so whats your birthday? (dd/mm/yyyy)")
+print ("Alright so your birthday is",u4b)
+print ("Okay thanks")
+
+time.sleep(0.8)
+
+#Getting 5th person's name
+u5n = input ("Now finally whats your name?")
+print ("Really! Thats a great name",u5n)
+
+time.sleep(0.5)
+
+#Geting 5 person's birthday
+u5b = input ("So whats your birthday (dd/mm/yyyy)")
+print ("Alright so finally your birthday is",u5b)
+print ("Thanks")
