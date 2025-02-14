@@ -9,7 +9,7 @@ CENTREX = 250
 WHITE = (220,220,220)
 
 #set screen and font
-screen = pygame.display.set_mode((700,500))
+screen = pygame.display.set_mode((640,480))
 pygame.display.set_caption("My first game screen")
 font = pygame.font.SysFont("timesnewroman", 36)
 
