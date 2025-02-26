@@ -9,12 +9,17 @@ BACKGROUND_COLOR_CHANGE_EVENT = pygame.USEREVENT + 2
 BLUE = pygame.Color('blue')
 LIGHTBLUE = pygame.Color('lightblue')
 DARKBLUE = pygame.Color('darkblue')
-
+RED = pygame.Color('red')
 YELLOW = pygame.Color('yellow')
 MAGENTA = pygame.Color('magenta')
 ORANGE  = pygame.Color('orange')
 WHITE = pygame.Color("white")
-
+GREEN = pygame.Color("green")
+BLACK = pygame.Color('black')
+PINK = pygame.Color("pink")
+BROWN = pygame.Color('brown')
+BLUEVIOLT = pygame.Color("blue violet")
+Harvardcrimson = pygame.Color(165,28,48)
 
 class Sprite(pygame.sprite.Sprite):
     def __init__(self,color, height, width):
@@ -38,11 +43,11 @@ class Sprite(pygame.sprite.Sprite):
             pygame.event.post(pygame.event.Event(SPRITE_COLOR_CHANGE_EVENT))
             pygame.event.post(pygame.event.Event(BACKGROUND_COLOR_CHANGE_EVENT))
     def change_color(self):
-        self.image.fill(random.choice([YELLOW,MAGENTA,ORANGE,WHITE]))
+        self.image.fill(random.choice([YELLOW,MAGENTA,ORANGE,RED,Harvardcrimson]))
 
 def change_background_color():
     global bg_color
-    bg_color = random.choice([BLUE,LIGHTBLUE,DARKBLUE])
+    bg_color = random.choice([BLUE,LIGHTBLUE,GREEN,PINK,BLACK,BROWN])
 
 all_sprites_list = pygame.sprite.Group()
 sp1 = Sprite(WHITE,20,30) 
