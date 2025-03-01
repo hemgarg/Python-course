@@ -68,7 +68,6 @@ def calculate():
         ansyear -= 1
         ansmonth += 12
 
-    # **💡 FINAL FIX HERE!**
     if todaydate < datetext:
         ansmonth += 1
 
