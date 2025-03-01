@@ -11,7 +11,7 @@ number2_entry = Entry()
 
 anstext = Text(height=1, width=20)
 
-result = 0  # Initialize result
+result = 0
 
 def add():
     global result
