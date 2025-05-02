@@ -6,7 +6,7 @@ class parrot:
         self.age = age
 
 blu = parrot("blu",10)
-woo = parrot("blu",15)
+woo = parrot("woo",15)
 
 print("Blu is a {}".format(blu.species))
 print("Woo is also {}".format(woo.species))
