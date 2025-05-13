@@ -18,6 +18,6 @@ class Dog:
 dog1 = Cat("Dodo",2.5)
 cat1 = Dog("Tyson",8)
 
-for i in dog1,cat1:
-    i.info()
-    i.make_sound()
+for animal in dog1,cat1:
+    animal.info()
+    animal.make_sound()
